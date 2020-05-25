@@ -33,6 +33,10 @@ export default class UserInfo {
       this.name.textContent = res.name;
       this.info.textContent = res.about;
       this.image.style.backgroundImage = `url("${res.avatar}")`;
+      /*this.image.insertAdjacentHTML(
+        "beforebegin",
+        `<div class="user-info__photo style="background-image: url(${res.avatar})">`
+      );*/
     });
   }
 }

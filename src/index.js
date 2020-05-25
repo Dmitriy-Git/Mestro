@@ -19,7 +19,6 @@ const popup__close = document.querySelector(".popup__close");
 const placesList = document.querySelector(".places-list");
 const form = document.querySelector("#form");
 const userName = document.querySelector("#username");
-const image = document.querySelector(".user-info__photo");
 const name = form.elements.name;
 const link = form.elements.link;
 const modalWindow = document.querySelector(".modal-window");
@@ -40,6 +39,8 @@ const addButtonMesto = document.querySelector(".popup__button");
 const addButton = document.querySelector(".popup__button_type_new");
 const userInfoOpen = document.querySelector(".user-info");
 
+
+const image = document.querySelector(".user-info__photo");
 /*
 for (const item of result) {
   const a = item;
@@ -115,3 +116,4 @@ const newUserCard = (name, link) => card().create(name, link);
 
 const cardList = new CardList(cardPlaces, initialCards, newUserCard, api);
 cardList.render();
+
