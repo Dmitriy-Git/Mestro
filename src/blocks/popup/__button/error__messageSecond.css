@@ -1,0 +1,15 @@
+.error__messageSecond {
+  width: 164px;
+  height: 11px;
+  margin-left: -358px;
+  margin-top: 51px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  position: absolute;
+
+  color: #ff0000;
+}
